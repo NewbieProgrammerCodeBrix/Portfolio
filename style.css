@@ -1,0 +1,129 @@
+@keyframes slideInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(+200px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.hometext {
+    animation-name: slideInRight;
+    animation-duration: 1.8s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+}
+
+.hometext1 {
+    animation-name: slideInRight;
+    animation-duration: 1.8s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+}
+
+@keyframes slideInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-130px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.homepic {
+    animation-name: slideInLeft;
+    animation-duration: 1.8s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+}
+.hometext2 {
+    color: white;
+    animation-name: slideInLeft;
+    animation-duration: 1.8s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+}
+.homespan {
+
+    color: rgb(0, 255, 17);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.homepic:hover {
+    transform: translateY(-50px);
+    transform:scale3d(-90px);
+    transition: all ease 0.6s;
+}
+
+.logo {
+    animation-name: slideInLeft;
+    animation-duration: 1.8s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+}
+.pictext {
+    animation-name: slideInLeft;
+    animation-duration: 1.8s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+}
+
+.aboutpic {
+    animation-name: slideInRight;
+    animation-duration: 1.8s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+}
+
+.abouttext1 {
+    animation-name: slideInLeft;
+    animation-duration: 1.8s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+}
+.abouttext2 {
+    animation-name: slideInLeft;
+    animation-duration: 1.8s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+}
+
+
+.aboutpic:hover {
+    transform: rotate(90deg);
+    transition-timing-function: all ease 0.6s;
+}
